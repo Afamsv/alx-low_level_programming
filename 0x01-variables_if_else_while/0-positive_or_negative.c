@@ -29,5 +29,6 @@ int main(void)
 	{
 		printf("%d is not number\n", n);
 	}
+
 	return (0);
 }
