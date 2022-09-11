@@ -9,6 +9,7 @@
 int main(void)
 {
 
+	int num;
 	char letter;
 
 	for (letter = 'z'; letter >= 'a'; letter--)
