@@ -20,7 +20,7 @@ int main(void)
 			if (p != d)
 			{
 				putchar(d);
-				putcher(p);
+				putchar(p);
 				
 				if (d == '8' && p == '9')
 					continue;
