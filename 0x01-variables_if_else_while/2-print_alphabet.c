@@ -19,6 +19,7 @@ int main(void)
 		{
 			if (p != d)
 			{
+				putchar(n);
 				putchar(d);
 				putchar(p);
 				
