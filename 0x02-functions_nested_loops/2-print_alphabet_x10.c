@@ -1,14 +1,22 @@
 #include "main.h"
 
 /**
-* add - adding it up
-* @a: first integer
-* @b: second integer
+* print_alphabet_x10 - prints alphabet 10 times
 *
-* Return: sum of both integers
+* Return: always 0
 */
 
-int add(int a, int b)
+void print_alphabet_x10(void)
 {
-	return (a + b);
+	char i;
+	char h;
+	
+	for (h = 0; h <= 9; h++)
+	{
+		for (i = 'a'; i <= 'z'; i++)
+		{
+			_putchar(i);
+		}
+		_putchar('\n');
+	}	
 }
