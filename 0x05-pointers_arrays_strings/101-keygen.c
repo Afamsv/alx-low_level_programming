@@ -10,6 +10,7 @@
 int main(void)
 {
 	int r, n, i;
+	char a;
 
 	n = 0;
 	i = 0;
