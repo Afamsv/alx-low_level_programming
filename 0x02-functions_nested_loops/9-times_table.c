@@ -9,9 +9,10 @@ void times_table(void)
 	int i;
 	int j;
 
+	int prod = j * i;
+
 	for (i = 0; i <= 9; i++)
 	{
-		int prod = j * i;
 
 		if (j == 0)
 		{
