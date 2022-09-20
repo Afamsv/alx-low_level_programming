@@ -10,9 +10,9 @@ void _puts(char *str)
 {
 	int k = 0;
 
-	while (str + k)
+	while (*(str + k))
 	{
-		_putchar(*(str + k));
+		_putchar (*(str + k));
 		k++;
 	}
 	_putchar('\n');
