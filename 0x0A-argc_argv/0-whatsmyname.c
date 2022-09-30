@@ -1,4 +1,7 @@
 #include "stdio.h"
+#include "main.h"
+
+void print_string(char *str);
 
 /**
 * main - prints its name, followed by a new line.
@@ -10,6 +13,25 @@
 int main(int argc _attribute_((unused)), char *argv[])
 {
 	printf("%s\n", argv[0]);
+	putchar('\n');
+
 	return (0);
 }
 
+
+/**
+* print_string - Prints all char of a string
+* @str: Pointer to string
+* Return: void
+*/
+
+void print_string(char *str)
+{
+	int i =0;
+
+	while (str[i] != '\0')
+	{
+		putchar(str[i]);
+		i++'
+	}
+}
