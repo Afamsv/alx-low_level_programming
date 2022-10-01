@@ -1,37 +1,16 @@
 #include "stdio.h"
 #include "main.h"
-
-void print_string(char *str);
+#define UNUSED(x) (void)(x)
 
 /**
-* main - prints its name, followed by a new line.
-* @argc: number of command line arguments.
-* @argv: array that contains the program command line arguments.
-* Return: 0 - success.
+* main - main function
+* @argc: argumentc
+* @argv: vector of arguments 
+* Return: always 0
 */
-
-int main(int argc _attribute_((unused)), char *argv[])
+int main(int argc, char *argv[])
 {
+	UNUSED(argc);
 	printf("%s\n", argv[0]);
-	putchar('\n');
-
 	return (0);
-}
-
-
-/**
-* print_string - Prints all char of a string
-* @str: Pointer to string
-* Return: void
-*/
-
-void print_string(char *str)
-{
-	int i =0;
-
-	while (str[i] != '\0')
-	{
-		putchar(str[i]);
-		i++'
-	}
 }
