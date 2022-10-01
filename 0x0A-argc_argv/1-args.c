@@ -1,16 +1,17 @@
 #include "main.h"
+#include <stdio.h>
+#define UNUSED(x) (void)(x)
 
 /**
-* main - print number of arguments passed to program
-* @argc: argument counter
-* @argv: pointer to array of arguments
-* Return: 0 on success
+* main - main function
+* @argc: arguments
+* @argv: vector of arguments
+* Return: always 0
 */
 
-int main(int argc, char *argv[] _attribute_((unused)))
+int main(int argc, char  *argv[])
 {
-	if (argc > 0)
-		printf("%d\n", argc - 1);
-
+	UNUSED(argv);
+	printf("%d\n", argc - 1);
 	return (0);
 }
