@@ -13,6 +13,7 @@
 int StringCheck(char *s)
 {
 	int i = 0;
+
 	for (; s[i] != '\0'; i++)
 	{
 		if (!isdigit(s[i]))
@@ -58,4 +59,5 @@ int main(int argc, char  *argv[])
 		printf("%d\n", 0);
 		return (1);
 	}
+
 }
