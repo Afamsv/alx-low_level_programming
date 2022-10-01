@@ -13,7 +13,6 @@
 int StringCheck(char *s)
 {
 	int i = 0;
-
 	for (; s[i] != '\0'; i++)
 	{
 		if (!isdigit(s[i]))
@@ -22,6 +21,7 @@ int StringCheck(char *s)
 		}
 	}
 	return (1);
+
 }
 
 /**
