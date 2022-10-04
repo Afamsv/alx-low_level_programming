@@ -28,7 +28,7 @@ void ch_free_grid(char **grid, unsigned int height)
 char **strtow(char *str)
 {
 	char **aout;
-	unsigned int c, height, i, j, a1;
+	unsigned int c, height, al, i, j;
 
 	if (str == NULL || *str == '\0')
 		return (NULL);
@@ -46,7 +46,7 @@ char **strtow(char *str)
 		for (c = a1; str[c] != '\0'; c++)
 		{
 			if (str[c] == ' ')
-				al++;
+				a1++;
 			if (str[c] != ' ' && (str[c + 1] == ' ' || str[c + 1] == '\0'))
 			{
 				aout[i] = malloc((c - a1 + 2) * sizeof(char));
