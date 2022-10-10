@@ -46,7 +46,7 @@ char *_strcopy(char *dest, char *src)
 * @name: The name of the dog.
 * @age: The age of the dog.
 * @owner: The owner of the dog.
-* Return: The new struct
+* Return: The new struct dog.
 */
 
 dog_t *new_dog(char *name, float age, char *owner)
