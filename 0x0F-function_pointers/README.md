@@ -1,1 +1,1 @@
-0-print_name.c
+All about functions pointers in C programming language
