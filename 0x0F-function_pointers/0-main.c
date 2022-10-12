@@ -38,7 +38,8 @@ void print_name_uppercase(char *name)
 	}
 }
 
-/** main - check the code
+/**
+* main - check the code
 * Return: Always 0.
 */
 
